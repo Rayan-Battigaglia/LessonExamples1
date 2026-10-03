@@ -1,4 +1,6 @@
-﻿public class Program // Questa è una classe
+﻿/*
+ * 
+ * public class Program // Questa è una classe
 {    
     // Metodo di entrata per esecuzione del codice
     public static void Main()
@@ -33,5 +35,29 @@
         // che permette di inserire variabili all'interno di una stringa
         Console.WriteLine($"Il tipo di consegna selezionato è: {tipoConsegna} e il costo totale è {costoTotale}");
 
+
+
     }
+}
+ */
+using BlaisePascal.Example.Domain;
+
+public class Program
+{
+
+    public static void Main()
+    {
+
+        Vehicle vehicle = new Vehicle();
+
+        string license = vehicle.GetLicensePlate();
+
+        Console.WriteLine(license);
+
+
+
+
+
+    }
+
 }
